@@ -5,6 +5,6 @@ int summ(int a, int b)
 }
 int main()
 {
-  summ(1, 2)
+  assert(summ(5, 5) == 5)
   std::cout << "Hello world!" << std::endl;
 }
